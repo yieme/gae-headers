@@ -63,7 +63,6 @@ List of Google App Engine Headers
 - X-Appengine-Citylatlong
 - X-Appengine-Country
 - X-Appengine-Region
-- 
 
 ### GO list headers
 
