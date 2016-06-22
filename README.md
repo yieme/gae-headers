@@ -63,6 +63,9 @@ List of Google App Engine Headers
 - X-Appengine-Citylatlong
 - X-Appengine-Country
 - X-Appengine-Region
+- X-AppEngine-Estimated-CPM-US-Dollars
+- X-AppEngine-Resource-Usage
+
 
 ### GO list headers
 
