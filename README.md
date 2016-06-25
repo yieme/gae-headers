@@ -94,7 +94,7 @@ Generated headers which can be used for routing
 - Host
 - Origin
 
-#### [CloudFlare]()
+#### CloudFlare
 
 [Request headers](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-CloudFlare-handle-HTTP-Request-headers-):
 
@@ -110,4 +110,17 @@ Response headers
 - Cf-Railgun
 - CF-Ray
 - __cfuid
-- 
+
+#### [Heroku](https://devcenter.heroku.com/articles/http-routing)
+
+- X-Forwarded-For
+- X-Forwarded-Proto
+- X-Forwarded-Port
+- X-Request-Start
+- X-Request-Id
+- Via
+
+
+### License
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
