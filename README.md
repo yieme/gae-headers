@@ -149,6 +149,12 @@ Response headers
 - HTTP_DEVICE_STOCK_UA
 - HTTP_X_UCBROWSER_DEVICE_UA
 
+## [51 Degrees](https://51degrees.com/prices/on-premise)
+
+Open Source and DeviceAtlas alternative
+
+- HTTP_USER_AGENT
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
