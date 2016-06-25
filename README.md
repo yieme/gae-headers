@@ -32,7 +32,7 @@ List of Google App Engine Headers
 - X-Appengine-Request-Log-Id
 - X-Appengine-Server-Port
 
-### github.com/golang/appengine/blob/master/internal/api.go
+### [GAE api.go](http://github.com/golang/appengine/blob/master/internal/api.go)
 
 ##### Incoming
 
@@ -42,7 +42,7 @@ List of Google App Engine Headers
 - X-AppEngine-Current-Namespace
 - X-AppEngine-User-IP
 - X-AppEngine-Remote-Addr
-- 
+
 ##### Outgoing
 
 - X-Google-RPC-Service-Endpoint
@@ -54,7 +54,7 @@ List of Google App Engine Headers
 
 `http.Request.RemoteAddr` ex: `r.RemoteAddr`
 
-### cloud.google.com/appengine/docs/flexible/nodejs/how-requests-are-handled
+### [How Requests are handled](http://cloud.google.com/appengine/docs/flexible/nodejs/how-requests-are-handled)
 
 ##### Incoming
 
@@ -79,3 +79,35 @@ func listHeadersHandler(w http.ResponseWriter, r *http.Request) {
   fmt.Fprint(w, "\" }")
 }
 ```
+
+### Other non-gae headers of interest
+
+#### [CloudFront](https://aws.amazon.com/blogs/aws/enhanced-cloudfront-customization/)
+
+Generated headers which can be used for routing
+
+- CloudFront-Viewer-Country
+- CloudFront-Is-Mobile-Viewer
+- CloudFront-Is-Desktop-Viewer
+- CloudFront-Is-Tablet-Viewer
+- CloudFront-Forwarded-Proto
+- Host
+- Origin
+
+#### [CloudFlare]()
+
+[Request headers](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-CloudFlare-handle-HTTP-Request-headers-):
+
+- X-Forwarded-For 
+- X-Forwarded-Proto
+- CF-Connecting-IP 
+- Cf-Visitor - `{ "scheme":"https" }`
+- Cf-Ipcountry
+- CF-Ray - request hash with datacenter `230b030023ae2822-SJC`
+
+Response headers
+
+- Cf-Railgun
+- CF-Ray
+- __cfuid
+- 
