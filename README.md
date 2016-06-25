@@ -93,9 +93,9 @@ Generated headers which can be used for routing
 - Host
 - Origin
 
-## CloudFlare
+## [CloudFlare](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-CloudFlare-handle-HTTP-Request-headers-)
 
-[Request headers](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-CloudFlare-handle-HTTP-Request-headers-):
+Request headers:
 
 - X-Forwarded-For 
 - X-Forwarded-Proto
@@ -135,6 +135,19 @@ Response headers
 - Add `X-Robots-Tag`
 - Block by country
 - Redirect by country
+
+## [DeviceAtlas](https://deviceatlas.com/resources/side-loaded-browser-handling)
+
+[REST API](https://deviceatlas.com/resources/rest-api)
+
+- HTTP_USER_AGENT
+- HTTP_X_DEVICE_USER_AGENT
+- HTTP_X_ORIGINAL_USER_AGENT
+- HTTP_X_OPERAMINI_PHONE_UA
+- HTTP_X_SKYFIRE_PHONE
+- HTTP_X_BOLT_PHONE_UA
+- HTTP_DEVICE_STOCK_UA
+- HTTP_X_UCBROWSER_DEVICE_UA
 
 ## License
 
