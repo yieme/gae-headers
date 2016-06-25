@@ -1,6 +1,6 @@
-# gae-headers
+# Misc Headers
 
-List of Google App Engine Headers
+## Google App Engine
 
 ### Live hosting environment
 
@@ -80,9 +80,8 @@ func listHeadersHandler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-### Other non-gae headers of interest
 
-#### [CloudFront](https://aws.amazon.com/blogs/aws/enhanced-cloudfront-customization/)
+## [CloudFront](https://aws.amazon.com/blogs/aws/enhanced-cloudfront-customization/)
 
 Generated headers which can be used for routing
 
@@ -94,7 +93,7 @@ Generated headers which can be used for routing
 - Host
 - Origin
 
-#### CloudFlare
+## CloudFlare
 
 [Request headers](https://support.cloudflare.com/hc/en-us/articles/200170986-How-does-CloudFlare-handle-HTTP-Request-headers-):
 
@@ -111,7 +110,7 @@ Response headers
 - CF-Ray
 - __cfuid
 
-#### [Heroku](https://devcenter.heroku.com/articles/http-routing)
+## [Heroku](https://devcenter.heroku.com/articles/http-routing)
 
 - X-Forwarded-For
 - X-Forwarded-Proto
@@ -120,7 +119,23 @@ Response headers
 - X-Request-Id
 - Via
 
+## [MaxCDN](https://www.maxcdn.com/one/tutorial/edge-rules-recipes/)
 
-### License
+- Add CORS headers
+- Hide `X-Powered-By` header
+- Hide `Server` header
+- Hide `S3` headers
+- Force HTTPS connections
+- Redirect all bots
+- Redirect by
+- referrer
+- Redirect by User Agent
+- X-XSS Protection
+- Add Canonical header
+- Add `X-Robots-Tag`
+- Block by country
+- Redirect by country
+
+## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
